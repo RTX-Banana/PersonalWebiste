@@ -1,15 +1,17 @@
-import React, { Component } from "react";
-import Navbar from "./Components/Navbar";
-import Home from "./Components/Home/Home";
+import React, { Component } from 'react';
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Home/Home';
+import './App.scss';
 
 class App extends Component {
   render() {
     console.log("App - Rendered");
 
     return (
-      <React.Fragment>
+      <div class="background">
+        <Navbar />
         <Home />
-      </React.Fragment>
+      </div>
     );
   }
 }
