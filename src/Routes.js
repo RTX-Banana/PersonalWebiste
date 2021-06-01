@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home/Home.js';
 import AboutMe from './pages/AboutMe/AboutMe.js';
-import ProjectExperience from './pages/ProjectExperience/ProjectExperience.js';
+import ProjectsExperience from './pages/ProjectsExperience/ProjectsExperience.js';
 import ContactMe from './pages/ContactMe/ContactMe.js';
 
 export default function Routes() {
@@ -12,7 +12,7 @@ export default function Routes() {
       path: '/AboutMe',
     },
     {
-      Component: ProjectExperience,
+      Component: ProjectsExperience,
       path: '/Projects&Experience',
     },
     {
