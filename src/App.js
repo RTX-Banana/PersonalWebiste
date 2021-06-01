@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import Navbar from './Components/Navbar/Navbar';
-import Home from './Components/Home/Home';
-import './App.scss';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import Navbar from './components/Navbar/Navbar';
+import Routes from './Routes';
+import './App.css'
 
-class App extends Component {
-  render() {
-    console.log("App - Rendered");
+const browserHistory = createBrowserHistory();
 
-    return (
-      <div class="background">
+export default function App() {
+  return (
+    <div className="App">
+      <Router history={browserHistory}>
         <Navbar />
-        <Home />
-      </div>
-    );
-  }
+        <Routes />
+      </Router>
+    </div>
+  );
 }
-
-export default App;
