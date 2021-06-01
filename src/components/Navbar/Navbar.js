@@ -30,14 +30,12 @@ export default function Navbar() {
   return(
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="static">
+      <AppBar position="fixed">
         {isDesktopOrLaptop ?
           <>
             <Toolbar>
               <SportsEsports className={classes.icon} color="inherit" />
-              <Typography variant="h5" className={classes.title} color="inherit">
-                Davin Wong's Porfolio
-              </Typography>
+              <Typography variant="h5" className={classes.title} color="inherit">Davin Wong's Porfolio</Typography>
               <Button color="inherit" component={Link} to="/">Home</Button>
               <Button color="inherit" component={Link} to="/AboutMe">About Me</Button>
               <Button color="inherit" component={Link} to="/Projects&Experience">Projects & Experience</Button>
@@ -55,9 +53,7 @@ export default function Navbar() {
                 <MenuItem component={Link} onClick={() => {setAnchorEl(null)}} to="/Projects&Experience">Projects & Experience</MenuItem>
                 <MenuItem component={Link} onClick={() => {setAnchorEl(null)}} to="/ContactMe">Contact Me</MenuItem>
               </Menu>
-              <Typography variant="h5" className={classes.title} color="inherit">
-                Davin Wong's Porfolio
-              </Typography>
+              <Typography variant="h5" className={classes.title} color="inherit">Davin Wong's Porfolio</Typography>
             </Toolbar>
           </>
         }

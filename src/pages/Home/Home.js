@@ -21,7 +21,7 @@ export default function Home() {
     <div className="home">
       <CssBaseline />
       <Container maxWidth="md" className={classes.root}>
-        <Typography variant="h3" align="center">Hello World, I'm </Typography>
+        <Typography variant="h3" align="center" color="textPrimary">Hello World, I'm </Typography>
         <div className="text">
           <Typed className="typed"
             strings={[
