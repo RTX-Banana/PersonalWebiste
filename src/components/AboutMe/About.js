@@ -41,6 +41,7 @@ export default function About() {
             <Typography variant="body2" color="textPrimary">- Bachelor of Science in Computer Engineering</Typography>
             <Typography variant="body2" color="textPrimary">- Fall 2017 to Spring 2021</Typography>
             <Typography variant="body2" color="textPrimary">- Graduated May 2021 with 3.608 Overall GPA</Typography>
+            <Typography variant="body2" color="textPrimary">- Awarded Dean's Scholar: Fall 2019, Spring 2020, and Fall 2020</Typography>
             <br />
             <Typography variant="body1" color="textPrimary">Graduate Studies: Georgia Institute of Technology</Typography>
             <Typography variant="body2" color="textPrimary">- OMSCS (Online Master of Science in Computer Science) Program</Typography>
